@@ -1,0 +1,1 @@
+g++ -std=c++11 -pthread src/endpoint/RESTEndpoint.cc src/server.cc -I../libs/pistache/include ../libs/pistache/build/src/libpistache.a
